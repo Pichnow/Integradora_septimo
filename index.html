@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Empleados</title>
+</head>
+<body>
+        <h1>Alta Empleados</h1>
+
+    <form action="index.php" method="POST">
+       
+        
+        <br>
+        <label for="ApellidoyNombre">Nombre y apellido:</label>
+        <input type="text" name="ApellidoyNombre">
+        <br>
+
+
+
+        <br>
+        <label for="puesto">Seleccione un puesto:</label>
+        <select name="puesto">
+            <option value="1">Administracion</option>
+            <option value="2">Ventas</option>
+            <option value="3">Atencion al público</option>
+            <option value="4">Gerencia</option>
+            <option value="5">IT</option>
+        </select>
+        <br>
+
+
+        <br>
+        <label for="FechaDeIngreso">Fecha de ingreso:</label>
+        <input type="date" name="FechaDeIngreso">
+        <br>
+
+
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+    </form>
+
+
+
+</body>
+</html>
